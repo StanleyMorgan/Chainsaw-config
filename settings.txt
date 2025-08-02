@@ -1,0 +1,18 @@
+{
+  "lisk": {
+    "id": 1135,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14f60",
+    "color": "#1d66bfff"
+  },
+  "ink": {
+    "id": 57073,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14f60",
+    "color": "#6b2a9dff"
+  }
+}
