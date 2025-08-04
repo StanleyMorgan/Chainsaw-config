@@ -1,4 +1,12 @@
 {
+  "ink": {
+    "id": 57073,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14f60",
+    "color": "#6b2a9dff"
+  },
   "lisk": {
     "id": 1135,
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
@@ -7,12 +15,76 @@
     "gas": "0x14f60",
     "color": "#1d66bfff"
   },
-  "ink": {
-    "id": 57073,
+  "mode": {
+    "id": 34443,
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "value": "0x0",
     "data": "0x23fecc39",
     "gas": "0x14f60",
-    "color": "#6b2a9dff"
+    "color": "#d08b0aff"
+  },
+  "optimism": {
+    "id": 10,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x1b3f8",
+    "color": "#DC2626"
+  },
+  "plume": {
+    "id": 98866,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14f60",
+    "color": "#d13109ff"
+  },
+  "superseed": {
+    "id": 5330,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14f60",
+    "color": "#13a5afff"
+  },
+  "unichain": {
+    "id": 130,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14f60",
+    "color": "#d434cfff"
+  },
+  "worldchain": {
+    "id": 480,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14f60",
+    "color": "#2D3748"
+  },
+  "monad_tn": {
+    "id": 10143,
+    "address": "0x55C7C248b839A2fd94f6A36D62Cb2F705CBc2F42",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x14fe4",
+    "color": "#7543eaff"
+  },
+  "pharos_tn": {
+    "id": 688688,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x15d7f",
+    "color": "#0306b5"
+  },
+  "sahara_tn": {
+    "id": 313313,
+    "address": "0xa5F565650890fBA1824Ee0F21EbBbF660a179934",
+    "value": "0x0",
+    "data": "0x",
+    "gas": "0x927c0",
+    "color": "#9b8628ff"
   }
 }
