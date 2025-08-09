@@ -1,4 +1,20 @@
 {
+  "somnia_tn": {
+    "id": 50312,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x927c0",
+    "color": "#eb6fc4ff"
+  },
+  "soneium": {
+    "id": 1868,
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "value": "0x0",
+    "data": "0x23fecc39",
+    "gas": "0x1b3f8",
+    "color": "rgba(30, 30, 31, 1)"
+  },
   "ink": {
     "id": 57073,
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
