@@ -1,4 +1,12 @@
 {
+  "celo_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#f7d759ff",
+    "data": "0x23fecc39",
+    "gas": "0x1b3f8",
+    "id": 42220,
+    "value": "0x0"
+  },
   "faroswap_lqd": {
     "address": "0x4b177AdEd3b8bD1D5D747F91B9E853513838Cd49",
     "color": "#0306b5",
