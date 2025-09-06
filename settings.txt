@@ -1,4 +1,22 @@
 {
+  "pancake_harvest": {
+    "address": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
+    "color": "#0055feff",
+    "abi": [
+      {
+        "inputs": [
+          {"name": "_tokenId", "type": "uint256"},
+          {"name": "_to", "type": "address"}
+        ],
+        "name": "harvest",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "description": "Harvest CAKE rewards on Base",
+    "id": 8453,
+    "value": "0x0"
+  },  
   "celo_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#f7d759ff",
