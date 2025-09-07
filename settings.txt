@@ -1,4 +1,50 @@
 {
+  "uniswap_fees": {
+    "address": "0x03a520b32c04bf3beef7beb72e919cf822ed34f1",
+    "color": "#0055feff",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "components": [
+              {
+                "name": "tokenId",
+                "type": "uint256"
+              },
+              {
+                "name": "recipient",
+                "type": "address"
+              },
+              {
+                "name": "amount0Max",
+                "type": "uint128"
+              },
+              {
+                "name": "amount1Max",
+                "type": "uint128"
+              }
+            ],
+            "name": "params",
+            "type": "tuple"
+          }
+        ],
+        "name": "collect",
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ],
+    "description": "Collect Uniswap Fees on Base",
+    "id": 8453,
+    "value": "0x0",
+    "args": [
+      {
+        "tokenId": "",
+        "recipient": "",
+        "amount0Max": "340282366920938463463374607431768211455",
+        "amount1Max": "340282366920938463463374607431768211455"
+      }
+    ]
+  },
   "pancake_harvest": {
     "address": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
     "color": "#0055feff",
