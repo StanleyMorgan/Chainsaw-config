@@ -255,7 +255,7 @@
   },
   "soneium_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
-    "color": "rgba(30, 30, 31, 1)",
+    "color": "#1e1e1eff",
     "data": "0x23fecc39",
     "description": "GM Logger in Soneium",
     "gas": "0x1b3f8",
