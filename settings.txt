@@ -1,4 +1,42 @@
 {
+  "linea_claim": {
+    "address": "0x87baa1694381ae3ecae2660d97fe60404080eb64",
+    "color": "#101010ff",
+    "data": "0x4e71d92d",
+    "description": "Claim Linea Airdrop",
+    "id": 59144,
+    "value": "0x0"
+  },
+  "linea_approve": {
+    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "color": "#101010ff",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "description": "Approve Linea for DEX",
+    "id": 59144,
+    "value": "0x0",
+    "args": [
+      "",
+      "200000000000000000000000"
+    ]
+  },
   "uniswap_fees": {
     "address": "0x03a520b32c04bf3beef7beb72e919cf822ed34f1",
     "color": "#0055feff",
