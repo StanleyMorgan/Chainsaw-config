@@ -52,7 +52,7 @@
     "id": 8453,
     "address": "0x4200000000000000000000000000000000000006",
     "value": "0",
-    "color": "#4ADE80",
+    "color": "#0055feff",
     "description": "Read WETH Balance on Base",
     "abi": [
       {
