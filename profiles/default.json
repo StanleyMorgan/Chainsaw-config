@@ -1,0 +1,408 @@
+{
+  "unwrap_weth": {
+    "id": 8453,
+    "address": "0x4200000000000000000000000000000000000006",
+    "value": "0",
+    "color": "#0055feff",
+    "description": "Unwrap All WETH on Base",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "name": "wad",
+            "type": "uint256"
+          }
+        ],
+        "name": "withdraw",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "args": [
+      {
+        "$read": {
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "name": "_owner",
+                  "type": "address"
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "balance",
+                  "type": "uint256"
+                }
+              ],
+              "name": "balanceOf",
+              "type": "function",
+              "stateMutability": "view"
+            }
+          ],
+          "args": [
+            "$userAddress"
+          ]
+        }
+      }
+    ]
+  },
+  "weth_balance": {
+    "readOnly": true,
+    "id": 8453,
+    "address": "0x4200000000000000000000000000000000000006",
+    "value": "0",
+    "color": "#0055feff",
+    "description": "Read WETH Balance on Base",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "name": "_owner",
+            "type": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "balance",
+            "type": "uint256"
+          }
+        ],
+        "name": "balanceOf",
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "args": [
+      "$userAddress"
+    ]
+  },
+  "linea_claim": {
+    "address": "0x87baa1694381ae3ecae2660d97fe60404080eb64",
+    "color": "#101010ff",
+    "data": "0x4e71d92d",
+    "description": "Claim Linea Airdrop",
+    "id": 59144,
+    "value": "0x0"
+  },
+  "linea_approve": {
+    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "color": "#101010ff",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "description": "Approve Linea for DEX",
+    "id": 59144,
+    "value": "0x0",
+    "args": [
+      "",
+      "200000000000000000000000"
+    ]
+  },
+  "uniswap_fees": {
+    "address": "0x03a520b32c04bf3beef7beb72e919cf822ed34f1",
+    "color": "#0055feff",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "components": [
+              {
+                "name": "tokenId",
+                "type": "uint256"
+              },
+              {
+                "name": "recipient",
+                "type": "address"
+              },
+              {
+                "name": "amount0Max",
+                "type": "uint128"
+              },
+              {
+                "name": "amount1Max",
+                "type": "uint128"
+              }
+            ],
+            "name": "params",
+            "type": "tuple"
+          }
+        ],
+        "name": "collect",
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ],
+    "description": "Collect Uniswap Fees on Base",
+    "id": 8453,
+    "value": "0x0",
+    "args": [
+      {
+        "tokenId": "",
+        "recipient": "",
+        "amount0Max": "340282366920938463463374607431768211455",
+        "amount1Max": "340282366920938463463374607431768211455"
+      }
+    ]
+  },
+  "pancake_fees": {
+    "address": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
+    "color": "#0055feff",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "components": [
+              {
+                "name": "tokenId",
+                "type": "uint256"
+              },
+              {
+                "name": "recipient",
+                "type": "address"
+              },
+              {
+                "name": "amount0Max",
+                "type": "uint128"
+              },
+              {
+                "name": "amount1Max",
+                "type": "uint128"
+              }
+            ],
+            "name": "params",
+            "type": "tuple"
+          }
+        ],
+        "name": "collect",
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ],
+    "description": "Collect PancakeSwap Fees",
+    "id": 8453,
+    "value": "0x0",
+    "args": [
+      {
+        "tokenId": "",
+        "recipient": "",
+        "amount0Max": "340282366920938463463374607431768211455",
+        "amount1Max": "340282366920938463463374607431768211455"
+      }
+    ]
+  },
+  "pancake_harvest": {
+    "address": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
+    "color": "#0055feff",
+    "abi": [
+      {
+        "inputs": [
+          {"name": "_tokenId", "type": "uint256"},
+          {"name": "_to", "type": "address"}
+        ],
+        "name": "harvest",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "description": "Harvest CAKE rewards on Base",
+    "id": 8453,
+    "value": "0x0"
+  },  
+  "celo_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#f7d759ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger on Celo",
+    "gas": "0x1b3f8",
+    "id": 42220,
+    "value": "0x0"
+  },
+  "faroswap": {
+    "address": "0x3541423f25A1Ca5C98fdBCf478405d3f0aaD1164",
+    "color": "#0306b5",
+    "data": "0x5ae401dc0000000000000000000000000000000000000000000000000000000068aa2c3000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000e404e45aaf00000000000000000000000076aaada469d23216be5f7c596fa25f282ff9b364000000000000000000000000d4071393f8716661958f766df660033b3d35fd2900000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000059122dacf464467a08cbf089bfb03e7e8037128000000000000000000000000000000000000000000000000002386f26fc100000000000000000000000000000000000000000000000000000000000000b3505f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "description": "Swap PHRS to USDC on Faroswap in Pharos Testnet",
+    "gas": "0x927c0",
+    "id": 688688,
+    "value": "0x2386f26fc10000"
+  },
+  "faroswap_lp": {
+    "address": "0x4b177AdEd3b8bD1D5D747F91B9E853513838Cd49",
+    "color": "#0306b5",
+    "data": "0x674d9422000000000000000000000000ff7129709ebd3485c4ed4fef6dd923025d24e73000000000000000000000000000000000000000000000000000000000003225e8000000000000000000000000000000000000000000000000000000000098968000000000000000000000000000000000000000000000000000000000003219110000000000000000000000000000000000000000000000000000000000986f7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000068ab94de",
+    "description": "Add USDC/USDT liquidity on Faroswap in Pharos Testnet",
+    "gas": "0x927c0",
+    "id": 688688,
+    "value": "0x0"
+  },
+  "ink_gm": {
+    "address": "0x9F500d075118272B3564ac6Ef2c70a9067Fd2d3F",
+    "color": "#6b2a9dff",
+    "data": "0xc0129d43",
+    "description": "GM on Inkonchain",
+    "gas": "0x14f60",
+    "id": 57073,
+    "value": "0x0"
+  },
+  "ink_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#6b2a9dff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Ink",
+    "gas": "0x14f60",
+    "id": 57073,
+    "value": "0x0"
+  },
+  "linea_ocgm": {
+    "address": "0x64bb647876101d5ebca969df017a6f058e0f3433",
+    "color": "#101010ff",
+    "data": "0x84a3bb6b0000000000000000000000000000000000000000000000000000000000000000",
+    "description": "GM on OnchainGM in Linea. Failed TX",
+    "gas": "0x14f60",
+    "id": 59144,
+    "value": "0x0"
+  },
+  "lisk_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#1d66bfff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Lisk",
+    "gas": "0x14f60",
+    "id": 1135,
+    "value": "0x0"
+  },
+  "mode": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#d08b0aff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in MODE",
+    "gas": "0x14f60",
+    "id": 34443,
+    "value": "0x0"
+  },
+  "monad_gml": {
+    "address": "0x55C7C248b839A2fd94f6A36D62Cb2F705CBc2F42",
+    "color": "#7543eaff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Monad Testnet",
+    "gas": "0x14fe4",
+    "id": 10143,
+    "value": "0x0"
+  },
+  "optimism": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#DC2626",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Optimism",
+    "gas": "0x1b3f8",
+    "id": 10,
+    "value": "0x0"
+  },
+  "pharos_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#0306b5",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Pharos Testnet",
+    "gas": "0x15d7f",
+    "id": 688688,
+    "value": "0x0"
+  },
+  "pharos_znth": {
+    "address": "0xF8a1D4FF0f9b9Af7CE58E1fc1833688F3BFd6115",
+    "color": "#0306b5",
+    "data": "0x219f5d170000000000000000000000000000000000000000000000000000000001a4794f000000000000000000000000000000000000000000000000000000000098967f000000000000000000000000000000000000000000000000000000000042877d00000000000000000000000000000000000000000000000000000000009835340000000000000000000000000000000000000000000000000000000000425cdb0000000000000000000000000000000000000000000000000000000068af840a",
+    "description": "Swap PHRS to USDC on Zenith in Pharos Testnet",
+    "gas": "0x927c0",
+    "id": 688688,
+    "value": "0x0"
+  },
+  "plume": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#d13109ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Plume",
+    "gas": "0x14f60",
+    "id": 98866,
+    "value": "0x0"
+  },
+  "sahara_gml": {
+    "address": "0x38b5224979104e351976A446B295773919621C11",
+    "color": "#9b8628ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Sahara Testnet",
+    "gas": "0x927c0",
+    "id": 313313,
+    "value": "0x0"
+  },
+  "sei_ocgm": {
+    "address": "0x451f5242514e55dae5a1a1a4ef24ac3696c07560",
+    "color": "#8b0d10ff",
+    "data": "0x84a3bb6b0000000000000000000000000000000000000000000000000000000000000000",
+    "description": "GM on OnchainGM in SEI. Failed TX",
+    "gas": "0x14f60",
+    "id": 1329,
+    "value": "0x0"
+  },
+  "somnia_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#eb6fc4ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Somnia Testnet",
+    "gas": "0x927c0",
+    "id": 50312,
+    "value": "0x0"
+  },
+  "soneium_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#1e1e1eff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Soneium",
+    "gas": "0x1b3f8",
+    "id": 1868,
+    "value": "0x0"
+  },
+  "superseed": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#13a5afff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Superseed",
+    "gas": "0x14f60",
+    "id": 5330,
+    "value": "0x0"
+  },
+  "unichain_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#d434cfff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Unichain",
+    "gas": "0x14f60",
+    "id": 130,
+    "value": "0x0"
+  },
+  "world_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#2D3748",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Worldchain",
+    "gas": "0x14f60",
+    "id": 480,
+    "value": "0x0"
+  }
+}

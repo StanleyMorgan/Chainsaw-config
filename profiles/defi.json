@@ -1,0 +1,116 @@
+{
+  "uniswap_fees": {
+    "id": 8453,
+    "address": "0x03a520b32c04bf3beef7beb72e919cf822ed34f1",
+    "value": "0x0",
+    "color": "#0055feff",
+    "description": "Collect Uniswap Fees on Base",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "components": [
+              {
+                "name": "tokenId",
+                "type": "uint256"
+              },
+              {
+                "name": "recipient",
+                "type": "address"
+              },
+              {
+                "name": "amount0Max",
+                "type": "uint128"
+              },
+              {
+                "name": "amount1Max",
+                "type": "uint128"
+              }
+            ],
+            "name": "params",
+            "type": "tuple"
+          }
+        ],
+        "name": "collect",
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ],
+    "args": [
+      {
+        "tokenId": "",
+        "recipient": "$userAddress",
+        "amount0Max": "340282366920938463463374607431768211455",
+        "amount1Max": "340282366920938463463374607431768211455"
+      }
+    ]
+  },
+  "pancake_fees": {
+    "id": 8453,
+    "address": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
+    "value": "0x0",
+    "color": "#0055feff",
+    "description": "Collect PancakeSwap Fees",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "components": [
+              {
+                "name": "tokenId",
+                "type": "uint256"
+              },
+              {
+                "name": "recipient",
+                "type": "address"
+              },
+              {
+                "name": "amount0Max",
+                "type": "uint128"
+              },
+              {
+                "name": "amount1Max",
+                "type": "uint128"
+              }
+            ],
+            "name": "params",
+            "type": "tuple"
+          }
+        ],
+        "name": "collect",
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ],
+    "args": [
+      {
+        "tokenId": "",
+        "recipient": "$userAddress",
+        "amount0Max": "340282366920938463463374607431768211455",
+        "amount1Max": "340282366920938463463374607431768211455"
+      }
+    ]
+  },
+  "pancake_harvest": {
+    "id": 8453,
+    "address": "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3",
+    "value": "0x0",
+    "color": "#0055feff",
+    "description": "Harvest CAKE rewards on Base",
+    "abi": [
+      {
+        "inputs": [
+          {"name": "_tokenId", "type": "uint256"},
+          {"name": "_to", "type": "address"}
+        ],
+        "name": "harvest",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "args": [
+        "",
+        "$userAddress"
+    ]    
+  }
+}
