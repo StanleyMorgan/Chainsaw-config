@@ -1,4 +1,82 @@
 {
+  "unwrap_weth": {
+    "id": 8453,
+    "address": "0x4200000000000000000000000000000000000006",
+    "value": "0",
+    "color": "#0055feff",
+    "description": "Unwrap All WETH on Base",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "name": "wad",
+            "type": "uint256"
+          }
+        ],
+        "name": "withdraw",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "args": [
+      {
+        "$read": {
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "name": "_owner",
+                  "type": "address"
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "balance",
+                  "type": "uint256"
+                }
+              ],
+              "name": "balanceOf",
+              "type": "function",
+              "stateMutability": "view"
+            }
+          ],
+          "args": [
+            "$userAddress"
+          ]
+        }
+      }
+    ]
+  },
+  "weth_balance": {
+    "readOnly": true,
+    "id": 8453,
+    "address": "0x4200000000000000000000000000000000000006",
+    "value": "0",
+    "color": "#4ADE80",
+    "description": "Read WETH Balance on Base",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "name": "_owner",
+            "type": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "balance",
+            "type": "uint256"
+          }
+        ],
+        "name": "balanceOf",
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "args": [
+      "$userAddress"
+    ]
+  },
   "linea_claim": {
     "address": "0x87baa1694381ae3ecae2660d97fe60404080eb64",
     "color": "#101010ff",
