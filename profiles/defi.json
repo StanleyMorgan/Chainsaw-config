@@ -112,5 +112,53 @@
         "",
         "$userAddress"
     ]    
+  },
+  "unwrap_weth": {
+    "id": 8453,
+    "address": "0x4200000000000000000000000000000000000006",
+    "value": "0",
+    "color": "#0055feff",
+    "description": "Unwrap All WETH on Base",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "name": "wad",
+            "type": "uint256"
+          }
+        ],
+        "name": "withdraw",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "args": [
+      {
+        "$read": {
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "name": "_owner",
+                  "type": "address"
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "balance",
+                  "type": "uint256"
+                }
+              ],
+              "name": "balanceOf",
+              "type": "function",
+              "stateMutability": "view"
+            }
+          ],
+          "args": [
+            "$userAddress"
+          ]
+        }
+      }
+    ]
   }
 }
