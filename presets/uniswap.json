@@ -89,7 +89,7 @@
   },
   "create_pool": {
     "id": 84532,
-    "address": "0x0dC4ecaf96D33785Ccd6430EC082C8441f441a47",
+    "address": "$contractAddress",
     "value": "0",
     "color": "#0055fe",
     "description": "Create Liquidity Pool on Factory",
@@ -117,10 +117,10 @@
   },
   "initialize_pool": {
     "id": 84532,
-    "address": "0xb823743A160a119597bf0Cf4De9778BBBFeefe26",
+    "address": "$contractAddress",
     "value": "0",
     "color": "#0055fe",
-    "description": "Initialize Liquidity Pool",
+    "description": "Initialize Created Liquidity Pool",
     "abi": [
       {
         "inputs": [
