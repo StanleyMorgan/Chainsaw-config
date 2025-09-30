@@ -1,0 +1,128 @@
+{
+  "celo_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#f7d759ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger on Celo",
+    "gas": "0x1b3f8",
+    "id": 42220,
+    "value": "0x0"
+  },
+  "ink_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#6b2a9dff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Ink",
+    "gas": "0x14f60",
+    "id": 57073,
+    "value": "0x0"
+  },
+  "lisk_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#1d66bfff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Lisk",
+    "gas": "0x14f60",
+    "id": 1135,
+    "value": "0x0"
+  },
+  "mode_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#d08b0aff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in MODE",
+    "gas": "0x14f60",
+    "id": 34443,
+    "value": "0x0"
+  },
+  "monad_gml": {
+    "address": "0x55C7C248b839A2fd94f6A36D62Cb2F705CBc2F42",
+    "color": "#7543eaff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Monad Testnet",
+    "gas": "0x14fe4",
+    "id": 10143,
+    "value": "0x0"
+  },
+  "optimism": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#DC2626",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Optimism",
+    "gas": "0x1b3f8",
+    "id": 10,
+    "value": "0x0"
+  },
+  "pharos_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#0306b5",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Pharos Testnet",
+    "gas": "0x15d7f",
+    "id": 688688,
+    "value": "0x0"
+  },
+  "plume_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#d13109ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Plume",
+    "gas": "0x14f60",
+    "id": 98866,
+    "value": "0x0"
+  },
+  "sahara_gml": {
+    "address": "0x38b5224979104e351976A446B295773919621C11",
+    "color": "#9b8628ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Sahara Testnet",
+    "gas": "0x927c0",
+    "id": 313313,
+    "value": "0x0"
+  },
+  "somnia_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#eb6fc4ff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Somnia Testnet",
+    "gas": "0x927c0",
+    "id": 50312,
+    "value": "0x0"
+  },
+  "soneium_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#1e1e1eff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Soneium",
+    "gas": "0x1b3f8",
+    "id": 1868,
+    "value": "0x0"
+  },
+  "superseed": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#13a5afff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Superseed",
+    "gas": "0x14f60",
+    "id": 5330,
+    "value": "0x0"
+  },
+  "unichain_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#d434cfff",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Unichain",
+    "gas": "0x14f60",
+    "id": 130,
+    "value": "0x0"
+  },
+  "world_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#2D3748",
+    "data": "0x23fecc39",
+    "description": "GM Logger in Worldchain",
+    "gas": "0x14f60",
+    "id": 480,
+    "value": "0x0"
+  }
+}
