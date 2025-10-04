@@ -72,15 +72,6 @@
     "id": 57073,
     "value": "0x0"
   },
-  "linea_ocgm": {
-    "address": "0x64bb647876101d5ebca969df017a6f058e0f3433",
-    "color": "#101010ff",
-    "data": "0x84a3bb6b0000000000000000000000000000000000000000000000000000000000000000",
-    "description": "GM on OnchainGM in Linea. Failed TX",
-    "gas": "0x14f60",
-    "id": 59144,
-    "value": "0x0"
-  },
   "lisk_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#1d66bfff",
