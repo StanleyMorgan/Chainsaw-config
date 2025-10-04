@@ -1,4 +1,12 @@
 {
+  "button": {
+    "id": "$chainId",
+    "address": "$contractAddress",
+    "color": "$color",
+    "data": "$data",
+    "description": "$description",
+    "value": "0"
+  },  
   "linea_claim": {
     "address": "0x87baa1694381ae3ecae2660d97fe60404080eb64",
     "color": "#101010ff",
