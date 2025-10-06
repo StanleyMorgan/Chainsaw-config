@@ -81,7 +81,7 @@
     "id": 1135,
     "value": "0x0"
   },
-  "mode": {
+  "mode_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#d08b0aff",
     "data": "0x23fecc39",
@@ -117,7 +117,7 @@
     "id": 688688,
     "value": "0x0"
   },
-  "plume": {
+  "plume_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#d13109ff",
     "data": "0x23fecc39",
