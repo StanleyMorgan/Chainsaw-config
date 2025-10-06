@@ -135,15 +135,6 @@
     "id": 313313,
     "value": "0x0"
   },
-  "sei_ocgm": {
-    "address": "0x451f5242514e55dae5a1a1a4ef24ac3696c07560",
-    "color": "#8b0d10ff",
-    "data": "0x84a3bb6b0000000000000000000000000000000000000000000000000000000000000000",
-    "description": "GM on OnchainGM in SEI. Failed TX",
-    "gas": "0x14f60",
-    "id": 1329,
-    "value": "0x0"
-  },
   "somnia_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#eb6fc4ff",
