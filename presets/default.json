@@ -112,9 +112,9 @@
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#0306b5",
     "data": "0x23fecc39",
-    "description": "GM Logger in Pharos Testnet",
+    "description": "GM Logger in Pharos Atlantic Testnet",
     "gas": "0x15d7f",
-    "id": 688688,
+    "id": 688689,
     "value": "0x0"
   },
   "plume_gml": {
@@ -133,15 +133,6 @@
     "description": "GM Logger in Sahara Testnet",
     "gas": "0x927c0",
     "id": 313313,
-    "value": "0x0"
-  },
-  "somnia_gml": {
-    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
-    "color": "#eb6fc4ff",
-    "data": "0x23fecc39",
-    "description": "GM Logger in Somnia Testnet",
-    "gas": "0x927c0",
-    "id": 50312,
     "value": "0x0"
   },
   "soneium_gml": {
