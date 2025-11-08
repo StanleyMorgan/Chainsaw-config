@@ -1,4 +1,12 @@
 {
+  "stabletn_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#012120",
+    "data": "0x23fecc39",
+    "description": "GM Logger on Stable Testnet",
+    "id": 2201,
+    "value": "0"
+  },
   "base_gml": {
     "address": "0xF103317F558778260C428037881aDcdfE999BD4E",
     "color": "#0055feff",
