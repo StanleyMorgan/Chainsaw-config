@@ -1,4 +1,12 @@
 {
+  "neuratn_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "#f280a1",
+    "data": "0x23fecc39",
+    "description": "GM Logger on Neura Testnet",
+    "id": 267,
+    "value": "0"
+  },  
   "stabletn_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#012120",
