@@ -15,36 +15,6 @@
     "id": 59144,
     "value": "0x0"
   },
-  "linea_approve": {
-    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
-    "color": "#101010ff",
-    "abi": [
-      {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "spender",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "amount",
-            "type": "uint256"
-          }
-        ],
-        "name": "approve",
-        "stateMutability": "nonpayable",
-        "type": "function"
-      }
-    ],
-    "description": "Approve Linea for DEX",
-    "id": 59144,
-    "value": "0x0",
-    "args": [
-      "",
-      "200000000000000000000000"
-    ]
-  }, 
   "celo_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#f7d759ff",
