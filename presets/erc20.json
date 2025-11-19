@@ -1,0 +1,50 @@
+{
+  "transfer_erc20": {
+    "id": "$chainId",
+    "address": "$contractAddress",
+    "value": "0x0",
+    "color": "gray",
+    "description": "Transfer ERC20 tokens",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ]
+  },
+  "approve_erc20": {
+    "id": "$chainId",
+    "address": "$contractAddress",
+    "color": "gray",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "description": "Approve / revoke ERC20 token",
+    "value": "0x0"
+  }
+}
