@@ -1,4 +1,12 @@
 {
+  "arctn_gml": {
+    "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
+    "color": "navy",
+    "data": "0x23fecc39",
+    "description": "GM Logger on Arc Testnet",
+    "id": 5042002,
+    "value": "0"
+  },
   "neuratn_gml": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#f280a1",
