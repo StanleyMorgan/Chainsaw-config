@@ -67,15 +67,6 @@
     "id": 34443,
     "value": "0x0"
   },
-  "monad_gml": {
-    "address": "0x55C7C248b839A2fd94f6A36D62Cb2F705CBc2F42",
-    "color": "#7543eaff",
-    "data": "0x23fecc39",
-    "description": "GM Logger in Monad Testnet",
-    "gas": "0x14fe4",
-    "id": 10143,
-    "value": "0x0"
-  },
   "optimism": {
     "address": "0x65883b1e9a2944cbacbc695116c26d8b926c61af",
     "color": "#DC2626",
